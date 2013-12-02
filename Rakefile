@@ -1,8 +1,9 @@
-require 'cucumber'
+
 require 'json'
 require 'cucumber/rake/task'
 require 'mongo'
 require 'csv'
+require 'cucumber'
 
 base = File.dirname(__FILE__)
 Dir.glob(base + '/lib/*.rb').each { |f| require f }
