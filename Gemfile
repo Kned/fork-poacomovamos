@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'rake'
 gem 'sinatra'
 gem 'mongo'
 gem 'mongo_mapper'
