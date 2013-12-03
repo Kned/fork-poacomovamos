@@ -1,4 +1,3 @@
-
 require 'json'
 require 'cucumber/rake/task'
 require 'mongo'
@@ -22,11 +21,13 @@ task :features do
   end
 end
 
+=begin
 desc "Roda os testes de javascript"
 task :jstest do
   puts "===== Testes de Javascript ====="
   sh 'karma start'
 end
+=end
 
 desc "Roda os testes de unidade"
 task :spec do
